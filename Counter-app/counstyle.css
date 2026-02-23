@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body{
+  background: #dfe9f5;
+}
+
+.wrapper{
+  width: 330px;
+  padding: 2rem 1rem;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+.meaincenter{
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#countlabel{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+}
+
+#btn-container{
+  text-align: center;
+}
+
+.btn-style{
+  padding: 5px 10px;
+  font-size: 1.1em;
+  color: white;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-style:hover{
+  background-color: rgb(16, 97, 112)
+}
